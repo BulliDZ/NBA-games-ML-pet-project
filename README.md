@@ -28,6 +28,9 @@ python src/train.py --data-dir data --db-path nba.duckdb --artifacts-dir artifac
 ```
 streamlit run app/streamlit_app.py
 ```
+### Streamlit visualisation sample
+
+<img width="1919" height="979" alt="image" src="https://github.com/user-attachments/assets/cc2094e2-8791-40bb-931f-9e55c2902e90" />
 
 After training, you get:
 - `artifacts/model.joblib` (best of LogisticRegression / HistGradientBoosting)
